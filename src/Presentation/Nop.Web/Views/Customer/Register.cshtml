@@ -368,6 +368,7 @@
                         <strong>@T("Account.UserAgreement")</strong>
                     </div>
                     <div class="form-fields">
+                    <div class="consents">
                         @if (Model.AcceptPrivacyPolicyEnabled)
                         {
                             <script asp-location="Footer">
@@ -436,6 +437,7 @@
                             }
 
                         }
+                    </div>
                     </div>
                 </div>
             }

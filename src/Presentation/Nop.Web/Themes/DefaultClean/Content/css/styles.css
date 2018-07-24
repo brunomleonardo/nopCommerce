@@ -2870,7 +2870,7 @@ label, label + * {
 	background-color: #999;
 }
 .inputs.accept-consent {
-    text-align: center;
+    text-align: left;
 }
 .inputs.accept-consent > * {
     display: inline-block;
@@ -7042,4 +7042,20 @@ pre {
     max-width: 100%;
 }
 
+
+
+}
+
+/*** experiments ***/
+.consents {
+    margin: auto;
+    width: 450px;
+}
+
+.inputs-margin label.closetext {
+    width:0px;
+}
+
+.inputs-margin {
+    margin-left:150px;
 }
