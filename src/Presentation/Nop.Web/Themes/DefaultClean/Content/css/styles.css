@@ -5333,6 +5333,18 @@ pre {
     text-align: center;
 }
 
+.inputs-margin {
+    margin-left:0;
+}
+.inputs.accept-consent > label{
+	display: block;
+}
+.inputs.accept-consent{
+	text-align: center;
+}
+.inputs.accept-consent label{
+	margin-left: 0;
+}
 }
 
 
@@ -6893,6 +6905,18 @@ pre {
     vertical-align: middle;
 }
 
+.consents {
+    margin: auto;
+    width: 450px;
+}
+
+.inputs-margin label.closetext {
+    width:0px;
+}
+
+.inputs-margin {
+    margin-left:150px;
+}
 }
 
 
@@ -7042,11 +7066,6 @@ pre {
     max-width: 100%;
 }
 
-
-
-}
-
-/*** experiments ***/
 .consents {
     margin: auto;
     width: 450px;
@@ -7058,4 +7077,5 @@ pre {
 
 .inputs-margin {
     margin-left:150px;
+}
 }
